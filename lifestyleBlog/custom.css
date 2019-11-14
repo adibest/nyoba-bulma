@@ -1,0 +1,18 @@
+.cus-nav {
+  padding: 10px; 
+}
+
+.nav-pad {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bg-1 {
+  background-image: url('https://images.unsplash.com/photo-1519091915001-f72a15a88b04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  background-position: center;
+}
+
+.btn-fix {
+  display: flex;
+  flex-grow: 1;
+}

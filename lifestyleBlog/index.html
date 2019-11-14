@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="../bulma-0.8.0/css/bulma.css">
+    <link rel="stylesheet" href="../bulma-0.8.0/sass/base/_all.sass">
+    <link rel="stylesheet" href="../bulma-0.8.0/bulma.sass">
+    <link rel="stylesheet" href="custom.css">
+    <script defer src="../fontawesome-free-5.11.2-web/js/all.js"></script>
+  </head>
+  <body>
+  <!-- header -->
+  <nav class="navbar is-fixed-top has-shadow cus-nav" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-5" href="https://ibnukatmo.wordpress.com">
+          <!-- <img src="https://ibnukatmo.files.wordpress.com/2019/07/cropped-adib2.jpg"> -->
+          <strong>Adibest</strong>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+          <a class="navbar-item nav-pad">World</a>
+          <a class="navbar-item nav-pad">Sports</a>
+          <a class="navbar-item nav-pad">Opinion</a>
+          <a class="navbar-item nav-pad is-active">Lifestyle</a>
+          <a class="navbar-item nav-pad">Business</a>
+          <a class="navbar-item nav-pad">Culture</a>
+          <a class="navbar-item nav-pad">Fashion</a>
+          <a class="navbar-item nav-pad">Tech</a>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item image">
+            <img class="is-rounded" src="https://lh3.googleusercontent.com/-Y0eQt8bHGM4/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfcgMuAstuvoXd7K_bTwY8zs_yq-Q.CMID/s32-c/photo.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- hero -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Lifestyle.
+        </h1>
+        <h2 class="subtitle">
+          The latest and best lifestyle articles selected by our editorial office.
+        </h2>
+      </div>
+    </div>
+  </section>
+  <!-- tile -->
+  <section class="section">
+    <div class="container">
+      <div class="tile is-ancestor" style="height: 300px;">
+        <div class="tile is-6 is-parent">
+          <article class="tile is-child box bg-1">
+            <p class="subtitle">FOOD</p>
+            <p class="title">Wake Up and Smell the Coffee</p>
+            <button class="button is-primary is-inverted is-outlined btn-fix">Outlined</button>
+          </article>
+        </div>
+        <div class="tile is-3 is-parent">
+          <div class="tile box">
+            <p class="title">The Brand New Nasa Office</p>
+          </div>
+        </div>
+        <div class="tile is-3 is-parent">
+          <div class="tile box">
+            <p class="title">Experian the Saharan Sands</p>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-3 is-parent">
+          <div class="tile box">
+            <p class="title">9 Air-Cleaning Plants Your Home Needs</p>
+          </div>
+        </div>
+        <div class="tile is-3 is-parent">
+          <div class="tile box">
+            <p class="title">One Month Sugar Detox</p>
+          </div>
+        </div>
+        <div class="tile is-6 is-parent">
+          <div class="tile box">
+            <p class="title">Shooting Minimal Instagram Photos</p>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-primary">
+                <p class="title">Vertical...</p>
+                <p class="subtitle">Top tile</p>
+              </article>
+              <article class="tile is-child notification is-warning">
+                <p class="title">...tiles</p>
+                <p class="subtitle">Bottom tile</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-info">
+                <p class="title">Middle tile</p>
+                <p class="subtitle">With an image</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-danger">
+              <p class="title">Wide tile</p>
+              <p class="subtitle">Aligned with the right tile</p>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-success">
+            <div class="content">
+              <p class="title">Tall tile</p>
+              <p class="subtitle">With even more content</p>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+  </body>
+</html>
