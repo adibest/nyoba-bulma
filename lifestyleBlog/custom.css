@@ -54,3 +54,7 @@
   border: 0px black #000;
   border-radius: 10px;
 }
+
+.is-active-2 {
+  display: none;
+}
