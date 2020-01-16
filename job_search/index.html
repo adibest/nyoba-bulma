@@ -1,19 +1,370 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma! Adib</title>
-    <link rel="stylesheet" href="../node_modules/bulma/css/bulma.css">
-    <link rel="stylesheet" href="../node_modules/bulma/sass/base/_all.sass">
-    <link rel="stylesheet" href="../node_modules/bulma/bulma.sass">
-    <link rel="stylesheet" href="custom.css">
-    <script defer src="../node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
-  </head>
-  <body>
-    <!-- header -->
-    <nav class="navbar">
+<html class="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Search</title>
+  <link rel="stylesheet" href="../node_modules/bulma/css/bulma.css">
+  <link rel="stylesheet" href="../node_modules/bulma/sass/base/_all.sass">
+  <link rel="stylesheet" href="../node_modules/bulma/bulma.sass">
+  <link rel="stylesheet" href="custom.css">
+  <script defer src="../node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+</head>
+<body>
+  <!-- header -->
+  <nav class="bd-navbar navbar has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="#" class="navbar-item">
+          <strong>Job Search</strong>
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenuMobile">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu" id="navMenuMobile">
+          <div class="navbar-start">
+            <a href="#" class="navbar-item">Jobs</a>
+            <a href="#" class="navbar-item">Companies</a>
+            <a href="#" class="navbar-item">Post a Job</a>
+            <a href="#" class="navbar-item">Resume Search</a>
+            <a href="#" class="navbar-item">Pricing</a>
+          </div>
+          <div class="navbar-end">
+            <a href="#" class="navbar-item">
+              <strong>Sign In</strong>
+            </a>
+            <a href="#" class="navbar-item">
+              <strong>Sign Up</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start" id="navStart">
+          <a href="#" class="navbar-item nav-pad">Jobs</a>
+          <a href="#" class="navbar-item nav-pad">Companies</a>
+          <a href="#" class="navbar-item nav-pad">Post a Job</a>
+          <a href="#" class="navbar-item nav-pad">Resume Search</a>
+          <a href="#" class="navbar-item nav-pad">Pricing</a>
+        </div>
+        <div class="navbar-end">
+          <a href="#" class="navbar-item">
+            <strong>Sign In</strong>
+          </a>
+          <a href="#" class="navbar-item">
+            <strong>Sign Up</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- hero -->
+  <section class="hero is-medium is-link is-bold">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">Search 7 Live Jobs</h1>
+        <h2 class="subtitle">Finding your new job just got easier</h2>
+      </div>
+    </div>
+  </section>
+  <!-- hero form -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-mobile is-multiline is-centered">
+          <div class="column is-three-fifths">
+            <div class="columns">
+              <div class="column is-two-fifths">
+                <p class="control has-icons-left">
+                  <input type="text" class="input" value="Search for job">
+                  <span class="icon is-small is-left has-text-success">
+                    <i class="fas fa-search"></i>
+                  </span>
+                </p>
+              </div>
+              <div class="column is-two-fifths">
+                <p class="control has-icons-left">
+                  <span class="select">
+                    <select>
+                      <option>Set Location</option>
+                      <option>Select dropdown</option>
+                      <option>With options</option>
+                    </select>
+                  </span>
+                  <span class="icon is-small is-left has-text-success">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                </p>
+              </div>
+              <div class="column is-one-fifths">
+                <p class="control">
+                  <a class="button is-primary">
+                    Search
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main class="bd-main">
+    <div class="container">
+      <div class="bd-card">
+        <div class="card cus-card">
+          <div class="card-content">
+            <div class="media cus-media">
+              <div class="media-left">
+                <figure class="image is-96x96">
+                  <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">Apple Executive Produser</p>
+                <p class="subtitle is-6">
+                  <span class="tag is-primary">Full Time</span>
+                  <span class="tag is-info">April, 12 2020</span>
+                </p>
+              </div>
+            </div>
 
-    </nav>
-  </body>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+              <a href="#">#css</a> <a href="#">#responsive</a>
+              <br>
+              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="#" class="card-footer-item">
+              <span class="icon">
+                <i class="fas fa-building"></i>
+              </span>
+              Apple Inc.
+            </a>
+            <a href="#" class="card-footer-item">
+              <span class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              California
+            </a>
+          </footer>
+        </div>
+        <div class="card cus-card">
+          <div class="card-content">
+            <div class="media cus-media">
+              <div class="media-left">
+                <figure class="image is-96x96">
+                  <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">Nike Product Manager</p>
+                <p class="subtitle is-6">
+                  <span class="tag is-primary">Full Time</span>
+                  <span class="tag is-info">April, 12 2020</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+              <a href="#">#css</a> <a href="#">#responsive</a>
+              <br>
+              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="#" class="card-footer-item">
+              <span class="icon">
+                <i class="fas fa-building"></i>
+              </span>
+              Nike
+            </a>
+            <a href="#" class="card-footer-item">
+              <span class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              Washington
+            </a>
+          </footer>
+        </div>
+        <div class="card cus-card">
+          <div class="card-content">
+            <div class="media cus-media">
+              <div class="media-left">
+                <figure class="image is-96x96">
+                  <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">Amazon Warehouse Manager</p>
+                <p class="subtitle is-6">
+                  <span class="tag is-warning">Part Time</span>
+                  <span class="tag is-info">April, 12 2020</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+              <a href="#">#css</a> <a href="#">#responsive</a>
+              <br>
+              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="#" class="card-footer-item">
+              <span class="icon">
+                <i class="fas fa-building"></i>
+              </span>
+              Amazon
+            </a>
+            <a href="#" class="card-footer-item">
+              <span class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              Los Angeles
+            </a>
+          </footer>
+        </div>
+        <div class="card cus-card">
+          <div class="card-content">
+            <div class="media cus-media">
+              <div class="media-left">
+                <figure class="image is-96x96">
+                  <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">Twitter Executive Produser</p>
+                <p class="subtitle is-6">
+                  <span class="tag is-primary">Full Time</span>
+                  <span class="tag is-info">April, 12 2020</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+              <a href="#">#css</a> <a href="#">#responsive</a>
+              <br>
+              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="#" class="card-footer-item">
+              <span class="icon">
+                <i class="fas fa-building"></i>
+              </span>
+              Twitter
+            </a>
+            <a href="#" class="card-footer-item">
+              <span class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              San Fransisco
+            </a>
+          </footer>
+        </div>
+        <div class="columns">
+          <div class="column has-text-centered">
+            <a>View All Job postings (10)</a>
+          </div>
+        </div>
+      </div>
+      <div class="bd-column">
+        <div class="columns is-mobile is-multiline is-centered">
+          <div class="column is-full has-text-centered">
+            <h1 class="title">Sort By</h1>
+          </div>
+          <div class="column is-three-fifths">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                <div class="column has-text-centered">
+                  <p class="subtitle">
+                    <button class="button is-info">
+                      Jobs by Category
+                    </button>
+                  </p>
+                  <p>Accounting (5)</p>
+                  <p>Admin-Clerical (5)</p>
+                </div>
+              </div>
+              <div class="tile is-parent">
+                <div class="column has-text-centered">
+                  <p class="subtitle">
+                    <button class="button is-info">
+                      Jobs by City
+                    </button>
+                  </p>
+                  <p>Banking (5)</p>
+                  <p>Finance (5)</p>
+                </div>
+              </div>
+              <div class="tile is-parent">
+                <div class="column has-text-centered">
+                  <p class="subtitle">
+                    <button class="button is-info">
+                      Jobs by State
+                    </button>
+                  </p>
+                  <p>Human Resource (1)</p>
+                  <p>Management (1)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bd-tile">
+        <div class="columns is-mobile is-multiline is-centered">
+          <div class="column is-full has-text-centered">
+            <h1 class="title">Featured By</h1>
+          </div>
+          <div class="column is-four-fifths">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                <div class="tile is-child box cus-tile"></div>
+              </div>
+              <div class="tile is-parent">
+                <div class="tile is-child box cus-tile"></div>
+              </div>
+              <div class="tile is-parent">
+                <div class="tile is-child box cus-tile"></div>
+              </div>
+              <div class="tile is-parent">
+                <div class="tile is-child box cus-tile"></div>
+              </div>
+            </div>
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                <div class="tile is-child box cus-tile"></div>
+              </div>
+              <div class="tile is-parent">
+                <div class="tile is-child box cus-tile"></div>
+              </div>
+              <div class="tile is-parent">
+                <div class="tile is-child box cus-tile"></div>
+              </div>
+              <div class="tile is-parent">
+                <div class="tile is-child box cus-tile"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
