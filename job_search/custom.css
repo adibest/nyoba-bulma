@@ -1,42 +1,39 @@
 #navMenuMobile {
   display: none;
 }
-
 #navStart {
   flex-grow: 1;
   justify-content: center;
 }
-
 .nav-pad {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
 .cus-card {
   margin-bottom: 2rem;
 }
-
 .cus-media {
   align-items: center;
   justify-content: center;
 }
-
 .has-text-underlined {
   text-decoration: underline;
 }
-
-.company-image {
-  height: 200px;
-  width: 200px;
-  background-color: #3298dc;
-}
-
-.company-column {
-  background-color: #ffdd57;
-  align-items: center;
-  justify-content: center;
-}
-
 .cus-tile {
   height: 212px;
+}
+.bd-column, .bd-tile {
+  margin: 6rem 0;
+}
+.cus-title {
+  margin-bottom: 3rem;
+}
+.bd-footer-link {
+  color: #363636;
+}
+.bd-footer-link:hover {
+  color: #3273dc;
+}
+.column p {
+  margin: 0.5rem 0;
 }
